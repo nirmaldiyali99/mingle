@@ -24,5 +24,5 @@ p.text(35, 220, r'$\leftarrow$ due to protons passing through both')
 p.text(43, 205, r'front and back surfaces of the cut cone')
 p.grid(True)
 
-# show canvas
-p.show()
+p.show() # show plot canvas if there is a GUI
+p.savefig("E.png") # print plot to a file if there is no GUI
