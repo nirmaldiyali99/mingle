@@ -24,5 +24,5 @@ p.text(0.038, 810, r'Full-absorption peak $\rightarrow$')
 p.text(0, 410, r'Back-scattering peak')
 p.grid(True)
 
-# show canvas
-p.show()
+p.show() # show plot canvas if there is a GUI
+p.savefig("E.png") # print plot to a file if there is no GUI
